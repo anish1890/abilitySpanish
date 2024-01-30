@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>931811119864-u460u29v7ambauflc9bl4vkqfr8ml9s9.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.931811119864-u460u29v7ambauflc9bl4vkqfr8ml9s9</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBECr4ECN51gDX-sgISpNHSbjTcpnlR0ao</string>
+	<key>GCM_SENDER_ID</key>
+	<string>931811119864</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.hashmob.wordpuzzle</string>
+	<key>PROJECT_ID</key>
+	<string>word-puzzle-3294d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>word-puzzle-3294d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:931811119864:ios:c26f38fe3e798bfd32e10d</string>
+	<key>DATABASE_URL</key>
+	<string>https://word-puzzle-3294d-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

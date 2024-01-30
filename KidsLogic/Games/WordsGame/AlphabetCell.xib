@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaRoundedLTStd-Black.otf">
+            <string>HelveticaRoundedLTStd-Black</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="AlphabetCell" customModule="WordPuzzle" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="87" height="64"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="87" height="64"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gdW-6s-cfV">
+                        <rect key="frame" x="2" y="2" width="83" height="60"/>
+                        <subviews>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V4w-qv-YUK">
+                                <rect key="frame" x="34.5" y="21.5" width="14.5" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaRoundedLTStd-Black" family="Helvetica Rounded LT Std" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.17254901960784313" green="0.17254901960784313" blue="0.17254901960784313" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="V4w-qv-YUK" firstAttribute="centerY" secondItem="gdW-6s-cfV" secondAttribute="centerY" constant="2" id="B3r-sY-5km"/>
+                            <constraint firstItem="V4w-qv-YUK" firstAttribute="centerX" secondItem="gdW-6s-cfV" secondAttribute="centerX" id="s4t-RA-iwN"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="gdW-6s-cfV" secondAttribute="bottom" constant="2" id="8RJ-3f-fnK"/>
+                <constraint firstAttribute="trailing" secondItem="gdW-6s-cfV" secondAttribute="trailing" constant="2" id="KzZ-09-J4u"/>
+                <constraint firstItem="gdW-6s-cfV" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="2" id="YkF-k4-Zl6"/>
+                <constraint firstItem="gdW-6s-cfV" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="2" id="rRx-4f-ZQ4"/>
+            </constraints>
+            <size key="customSize" width="87" height="64"/>
+            <connections>
+                <outlet property="lblAlphabet" destination="V4w-qv-YUK" id="xvw-Vh-jZp"/>
+                <outlet property="viewMain" destination="gdW-6s-cfV" id="UFE-FB-3dQ"/>
+            </connections>
+            <point key="canvasLocation" x="158.69565217391306" y="39.508928571428569"/>
+        </collectionViewCell>
+    </objects>
+</document>

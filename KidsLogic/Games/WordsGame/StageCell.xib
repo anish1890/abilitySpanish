@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GAMERIA.ttf">
+            <string>GAMERIA</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="StageCell" customModule="WordPuzzle" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="119" height="116"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="119" height="116"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="beT-r1-qCs">
+                        <rect key="frame" x="0.0" y="10" width="119" height="96"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_stageBG" translatesAutoresizingMaskIntoConstraints="NO" id="d4b-rM-URt">
+                                <rect key="frame" x="0.0" y="0.0" width="119" height="96"/>
+                            </imageView>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_stageOpen" translatesAutoresizingMaskIntoConstraints="NO" id="yit-zs-XB5">
+                                <rect key="frame" x="6" y="6" width="107" height="84"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OdB-nf-AKO">
+                                <rect key="frame" x="47.5" y="27.5" width="24" height="41.5"/>
+                                <fontDescription key="fontDescription" name="GAMERIA" family="GAMERIA" pointSize="42"/>
+                                <color key="textColor" name="TEXT_COLOR"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_stageLock" translatesAutoresizingMaskIntoConstraints="NO" id="Gdl-pj-b2d">
+                                <rect key="frame" x="6" y="6" width="107" height="84"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Gdl-pj-b2d" secondAttribute="trailing" constant="6" id="0LS-mV-kMH"/>
+                            <constraint firstItem="yit-zs-XB5" firstAttribute="top" secondItem="beT-r1-qCs" secondAttribute="top" constant="6" id="0hd-ve-pLI"/>
+                            <constraint firstAttribute="trailing" secondItem="yit-zs-XB5" secondAttribute="trailing" constant="6" id="1aU-Cl-80v"/>
+                            <constraint firstItem="Gdl-pj-b2d" firstAttribute="top" secondItem="beT-r1-qCs" secondAttribute="top" constant="6" id="2ql-xG-nHa"/>
+                            <constraint firstItem="yit-zs-XB5" firstAttribute="leading" secondItem="beT-r1-qCs" secondAttribute="leading" constant="6" id="4gf-Sz-QX3"/>
+                            <constraint firstAttribute="trailing" secondItem="d4b-rM-URt" secondAttribute="trailing" id="F9S-JY-S7H"/>
+                            <constraint firstAttribute="bottom" secondItem="d4b-rM-URt" secondAttribute="bottom" id="H10-WU-JNd"/>
+                            <constraint firstAttribute="bottom" secondItem="yit-zs-XB5" secondAttribute="bottom" constant="6" id="H4R-eU-9ax"/>
+                            <constraint firstItem="OdB-nf-AKO" firstAttribute="centerX" secondItem="beT-r1-qCs" secondAttribute="centerX" id="Kx8-59-hK3"/>
+                            <constraint firstItem="d4b-rM-URt" firstAttribute="leading" secondItem="beT-r1-qCs" secondAttribute="leading" id="Q9G-Lc-MJv"/>
+                            <constraint firstAttribute="bottom" secondItem="yit-zs-XB5" secondAttribute="bottom" constant="6" id="SAg-f2-0r0"/>
+                            <constraint firstItem="OdB-nf-AKO" firstAttribute="centerY" secondItem="beT-r1-qCs" secondAttribute="centerY" id="Udr-5m-HIR"/>
+                            <constraint firstItem="yit-zs-XB5" firstAttribute="top" secondItem="beT-r1-qCs" secondAttribute="top" constant="6" id="cMb-9L-ykb"/>
+                            <constraint firstItem="d4b-rM-URt" firstAttribute="top" secondItem="beT-r1-qCs" secondAttribute="top" id="lj3-rE-Wbp"/>
+                            <constraint firstAttribute="trailing" secondItem="yit-zs-XB5" secondAttribute="trailing" constant="6" id="o4k-Qe-kJy"/>
+                            <constraint firstItem="yit-zs-XB5" firstAttribute="leading" secondItem="beT-r1-qCs" secondAttribute="leading" constant="6" id="p5G-UU-vfp"/>
+                            <constraint firstItem="Gdl-pj-b2d" firstAttribute="leading" secondItem="beT-r1-qCs" secondAttribute="leading" constant="6" id="rml-bX-tib"/>
+                            <constraint firstAttribute="bottom" secondItem="Gdl-pj-b2d" secondAttribute="bottom" constant="6" id="xIW-3d-730"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="beT-r1-qCs" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="11Y-0l-kFy"/>
+                <constraint firstItem="beT-r1-qCs" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="Pfu-hF-591"/>
+                <constraint firstAttribute="bottom" secondItem="beT-r1-qCs" secondAttribute="bottom" constant="10" id="XMJ-1d-8uz"/>
+                <constraint firstAttribute="trailing" secondItem="beT-r1-qCs" secondAttribute="trailing" id="YLO-PE-nOq"/>
+            </constraints>
+            <size key="customSize" width="119" height="116"/>
+            <connections>
+                <outlet property="imgLock" destination="Gdl-pj-b2d" id="Xga-it-ytT"/>
+                <outlet property="imgStageOpen" destination="yit-zs-XB5" id="oxf-3t-Ahv"/>
+                <outlet property="lblStageNumber" destination="OdB-nf-AKO" id="ewC-Aw-ma8"/>
+            </connections>
+            <point key="canvasLocation" x="181.8840579710145" y="44.866071428571423"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ic_stageBG" width="81.5" height="80"/>
+        <image name="ic_stageLock" width="65.5" height="64.5"/>
+        <image name="ic_stageOpen" width="65.5" height="64.5"/>
+        <namedColor name="TEXT_COLOR">
+            <color red="0.41960784313725491" green="0.25490196078431371" blue="0.054901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,173 @@
+PODS:
+  - Alamofire (5.8.0)
+  - Each (1.2.0)
+  - FirebaseAppCheckInterop (10.16.0)
+  - FirebaseAuth (10.16.0):
+    - FirebaseAppCheckInterop (~> 10.0)
+    - FirebaseCore (~> 10.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GTMSessionFetcher/Core (< 4.0, >= 2.1)
+    - RecaptchaInterop (~> 100.0)
+  - FirebaseCore (10.16.0):
+    - FirebaseCoreInternal (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/Logger (~> 7.8)
+  - FirebaseCoreInternal (10.16.0):
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - Google-Mobile-Ads-SDK (10.12.0):
+    - GoogleAppMeasurement (< 11.0, >= 7.0)
+    - GoogleUserMessagingPlatform (>= 1.1)
+  - GoogleAppMeasurement (10.16.0):
+    - GoogleAppMeasurement/AdIdSupport (= 10.16.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/AdIdSupport (10.16.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 10.16.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/WithoutAdIdSupport (10.16.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleUserMessagingPlatform (2.1.0)
+  - GoogleUtilities/AppDelegateSwizzler (7.11.5):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.11.5):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.11.5):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.11.5):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.11.5):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.11.5)"
+  - GoogleUtilities/Reachability (7.11.5):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (3.1.1)
+  - KRActivityIndicatorView (3.0.7)
+  - KRProgressHUD (3.4.7):
+    - KRActivityIndicatorView (= 3.0.7)
+  - Localize-Swift (3.2.0):
+    - Localize-Swift/LocalizeSwiftCore (= 3.2.0)
+    - Localize-Swift/UIKit (= 3.2.0)
+  - Localize-Swift/LocalizeSwiftCore (3.2.0)
+  - Localize-Swift/UIKit (3.2.0):
+    - Localize-Swift/LocalizeSwiftCore
+  - nanopb (2.30909.0):
+    - nanopb/decode (= 2.30909.0)
+    - nanopb/encode (= 2.30909.0)
+  - nanopb/decode (2.30909.0)
+  - nanopb/encode (2.30909.0)
+  - NVActivityIndicatorView (5.1.1):
+    - NVActivityIndicatorView/Base (= 5.1.1)
+  - NVActivityIndicatorView/Base (5.1.1)
+  - OneSignal (3.12.7):
+    - OneSignal/OneSignalCore (= 3.12.7)
+    - OneSignal/OneSignalExtension (= 3.12.7)
+    - OneSignal/OneSignalOutcomes (= 3.12.7)
+  - OneSignal/OneSignalCore (3.12.7)
+  - OneSignal/OneSignalExtension (3.12.7):
+    - OneSignal/OneSignalCore
+    - OneSignal/OneSignalOutcomes
+  - OneSignal/OneSignalOutcomes (3.12.7):
+    - OneSignal/OneSignalCore
+  - PromisesObjC (2.3.1)
+  - RecaptchaInterop (100.0.0)
+  - SDWebImage (5.18.3):
+    - SDWebImage/Core (= 5.18.3)
+  - SDWebImage/Core (5.18.3)
+  - SwiftConfettiView (0.1.0)
+  - SwiftyJSON (5.0.1)
+  - SwiftyStoreKit (0.16.1)
+  - youtube-ios-player-helper (1.0.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - Each (~> 1.2)
+  - FirebaseAuth
+  - FMDB
+  - Google-Mobile-Ads-SDK
+  - KRProgressHUD
+  - Localize-Swift
+  - NVActivityIndicatorView
+  - OneSignal (< 4.0, >= 3.0.0)
+  - SDWebImage
+  - SwiftConfettiView
+  - SwiftyJSON
+  - SwiftyStoreKit
+  - youtube-ios-player-helper (~> 1.0.4)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Each
+    - FirebaseAppCheckInterop
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseCoreInternal
+    - FMDB
+    - Google-Mobile-Ads-SDK
+    - GoogleAppMeasurement
+    - GoogleUserMessagingPlatform
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - KRActivityIndicatorView
+    - KRProgressHUD
+    - Localize-Swift
+    - nanopb
+    - NVActivityIndicatorView
+    - OneSignal
+    - PromisesObjC
+    - RecaptchaInterop
+    - SDWebImage
+    - SwiftConfettiView
+    - SwiftyJSON
+    - SwiftyStoreKit
+    - youtube-ios-player-helper
+
+SPEC CHECKSUMS:
+  Alamofire: 0e92e751b3e9e66d7982db43919d01f313b8eb91
+  Each: 53d089bc231f4a7221ed201bf23ac343c5c4d560
+  FirebaseAppCheckInterop: 82358cff9f33452dd44259e88eea5e562500b1cb
+  FirebaseAuth: 3862d87d4d58deff08f705d471896a2f66e8bbf0
+  FirebaseCore: 65a801af84cca84361ef9eac3fd868656968a53b
+  FirebaseCoreInternal: 26233f705cc4531236818a07ac84d20c333e505a
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  Google-Mobile-Ads-SDK: 976fdf273815674eed30b8aafffedb3c25b055e4
+  GoogleAppMeasurement: 079d7632810e9d9704a99932547ba1554acc4342
+  GoogleUserMessagingPlatform: dce302b8f1b84d6e945812ee7a15c3f65a102cbf
+  GoogleUtilities: 13e2c67ede716b8741c7989e26893d151b2b2084
+  GTMSessionFetcher: e8647203b65cee28c5f73d0f473d096653945e72
+  KRActivityIndicatorView: ad69e89c4ce40c986cf580595be4829dcad0e35a
+  KRProgressHUD: a248f0bc6c9c2aed40a37b76e03ffecc7f85c887
+  Localize-Swift: 6f4475136bdb0d7b2882ea3d4ea919d70142b232
+  nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  OneSignal: 65c17edb3d9d26e355249f97340c1386d87e168c
+  PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
+  RecaptchaInterop: 7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21
+  SDWebImage: 96e0c18ef14010b7485210e92fac888587ebb958
+  SwiftConfettiView: 1bdbc2e6913b6b1c76d8070802b212508ad5c352
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
+  youtube-ios-player-helper: e9b97535e816db3152179d84d999bc1807ecd689
+
+PODFILE CHECKSUM: 2ce3081393c41b772b223b4e68925465a05fe708
+
+COCOAPODS: 1.13.0

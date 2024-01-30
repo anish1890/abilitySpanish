@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="VideoPlayerTblCell" rowHeight="120" id="igb-dd-Ebe" customClass="VideoPlayerTblCell" customModule="AbilityToHelp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="igb-dd-Ebe" id="njY-dh-bMk">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aHA-0u-fRb">
+                        <rect key="frame" x="8" y="8" width="304" height="28"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0Vs-Hk-YFe">
+                                <rect key="frame" x="0.0" y="0.0" width="114" height="104"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="104" id="Foc-c1-OOt"/>
+                                    <constraint firstAttribute="width" constant="114" id="o93-TV-1tL"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lOK-tw-IdC">
+                                <rect key="frame" x="120" y="5" width="180" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.89789575730000004" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="0Vs-Hk-YFe" firstAttribute="leading" secondItem="aHA-0u-fRb" secondAttribute="leading" id="IKf-mT-d5c"/>
+                            <constraint firstItem="0Vs-Hk-YFe" firstAttribute="top" secondItem="aHA-0u-fRb" secondAttribute="top" id="Pe9-y5-y24"/>
+                            <constraint firstItem="lOK-tw-IdC" firstAttribute="top" secondItem="aHA-0u-fRb" secondAttribute="top" constant="5" id="cRb-7y-iCq"/>
+                            <constraint firstAttribute="bottom" secondItem="lOK-tw-IdC" secondAttribute="bottom" constant="5" id="l1z-kZ-SeZ"/>
+                            <constraint firstItem="lOK-tw-IdC" firstAttribute="leading" secondItem="0Vs-Hk-YFe" secondAttribute="trailing" constant="6" id="xyx-aj-PSB"/>
+                            <constraint firstAttribute="trailing" secondItem="lOK-tw-IdC" secondAttribute="trailing" constant="4" id="yeP-9r-vi4"/>
+                            <constraint firstAttribute="bottom" secondItem="0Vs-Hk-YFe" secondAttribute="bottom" id="ynY-l2-JJw"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="aHA-0u-fRb" secondAttribute="bottom" constant="7.5" id="Nfd-4a-Xgk"/>
+                    <constraint firstItem="aHA-0u-fRb" firstAttribute="top" secondItem="njY-dh-bMk" secondAttribute="top" constant="8" id="U3d-ku-dEe"/>
+                    <constraint firstItem="aHA-0u-fRb" firstAttribute="leading" secondItem="njY-dh-bMk" secondAttribute="leading" constant="8" id="owJ-Bp-RKL"/>
+                    <constraint firstAttribute="trailing" secondItem="aHA-0u-fRb" secondAttribute="trailing" constant="8" id="rBD-i7-HTU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="bRF-lQ-lbP"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="imgVideo" destination="0Vs-Hk-YFe" id="8K7-qg-3gZ"/>
+                <outlet property="lblVideoTitle" destination="lOK-tw-IdC" id="ves-Xk-zIn"/>
+                <outlet property="videoPlayerView" destination="aHA-0u-fRb" id="SzW-Nh-kkg"/>
+            </connections>
+            <point key="canvasLocation" x="-30.399999999999999" y="72.863568215892059"/>
+        </tableViewCell>
+    </objects>
+</document>
