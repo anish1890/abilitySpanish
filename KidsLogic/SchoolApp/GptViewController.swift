@@ -38,7 +38,7 @@ extension GptViewController: UITableViewDataSource, UITableViewDelegate {
 }
 extension GptViewController {
     func makeAlamofireRequest(_ prompt: String) {
-        let apiKey = "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"
+        let apiKey = "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"
             let urlString = "https://api.openai.com/v1/completions"
             
             // Set headers with authorization

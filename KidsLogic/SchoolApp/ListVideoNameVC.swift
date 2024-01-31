@@ -19,7 +19,8 @@ class ListVideoNameVC: UIViewController, UITableViewDataSource, UITableViewDeleg
         let cellNib = UINib(nibName: "VideoListTableViewCell", bundle: nil)
         tblVideoList.register(cellNib, forCellReuseIdentifier: "VideoListTableViewCell")
 
-        arrVideoList = ["ABC Songs", "Number Songs", "Color Songs", "Animal Songs", "Shape Songs", "Vehicle Songs", "Fruit Songs", "Vegetable Songs", "Day Songs", "Month Songs", "Clothes Songs"]
+         arrVideoList = ["Canciones del Abecedario", "Canciones de Números", "Canciones de Colores", "Canciones de Animales", "Canciones de Formas", "Canciones de Vehículos", "Canciones de Frutas", "Canciones de Verduras", "Canciones del Día", "Canciones del Mes", "Canciones de Ropa"]
+
 
         // Do any additional setup after loading the view.
     }

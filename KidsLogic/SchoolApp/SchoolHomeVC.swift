@@ -57,9 +57,9 @@ class SchoolHomeVC: UIViewController, UICollectionViewDelegate, UICollectionView
         } else if selectedMainCat == 3 {
             title = GlobleConstants.MAIN_CAT_LISTEN
         }
-       arrMainCategoryImageName = ["Alphabets", "Number", "Color", "Shapes", "Animals", "Birds", "Flowers", "Fruits", "Month", "Vegetable", "Body parts", "Clothes", "Country", "Food", "Geometry", "House", "Jobs", "School", "Sports", "Vehicle"]
-        
-        arrMainCategoryImage = ["home_alphabet", "home_number", "home_color", "home_shape", "home_animal", "home_birds", "home_flower", "home_fruits", "home_month", "home_vegetable", "home_body_parts", "home_clothes", "home_country", "home_food", "home_geometry", "home_house", "home_jobs", "home_school", "home_sports", "home_vehicle"]
+        arrMainCategoryImageName = ["Letras", "Número", "Color", "Formas", "Animales", "Aves", "Flores", "Frutas", "Mes", "Vegetales", "Partes del Cuerpo", "Ropa", "País", "Comida", "Geometría", "Casa", "Trabajos", "Escuela", "Deportes", "Vehículo"]
+
+         arrMainCategoryImage = ["home_alphabet", "home_number", "home_color", "home_shape", "home_animal", "home_birds", "home_flower", "home_fruits", "home_month", "home_vegetable", "home_body_parts", "home_clothes", "home_country", "home_food", "home_geometry", "home_house", "home_jobs", "home_school", "home_sports", "home_vehicle"]
 
         arrVideoList = ["vt_abc", "vt_number", "vt_color", "vt_animal", "vt_shape", "vt_vehicle", "vt_fruit", "vt_vegetable", "vt_day", "vt_month", "vt_clothes"]
 
@@ -102,6 +102,7 @@ class SchoolHomeVC: UIViewController, UICollectionViewDelegate, UICollectionView
         arrSports = ["chess", "windsurfing", "bowling", "karate", "ice_skating", "table_tennis", "badminton", "swimming", "football", "hockey", "equestrian", "cycling", "diving", "judo", "golf", "baseball", "volleyball", "surfing", "skateboarding", "skiing", "archery", "canoeing", "running", "billiards", "fencing", "tennis", "basketball"]
 
          arrVehicle = ["ambulance", "bike", "boat", "bus", "car", "container_truck", "fire_truck", "helicopter", "motorbike", "plane", "police_car", "ship", "subway", "train", "truck"]
+
 
 
  

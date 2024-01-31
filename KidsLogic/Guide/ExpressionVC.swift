@@ -128,14 +128,14 @@ class ExpressionVC: UIViewController,AVSpeechSynthesizerDelegate {
     
     func alphabetDetailsArray() {
         self.passArrDataSelected = [
-            ["Title": "Angry", "Image": "angry", "Desc_Data": "angry"],
-            ["Title": "kiss", "Image": "kiss", "Desc_Data": "kiss"],
-            ["Title": "love", "Image": "love", "Desc_Data": "love"],
-            ["Title": "neutral", "Image": "neutral", "Desc_Data": "neutral"],
-            ["Title": "sad", "Image": "sad", "Desc_Data": "sad"],
-            ["Title": "shy", "Image": "shy", "Desc_Data": "shy"],
-            ["Title": "smiling", "Image": "smiling", "Desc_Data": "smiling"],
-            ["Title": "wink", "Image": "wink", "Desc_Data": "wink"]
+             ["Title": "Enojado", "Image": "angry", "Desc_Data": "enojado"],
+              ["Title": "Beso", "Image": "kiss", "Desc_Data": "beso"],
+              ["Title": "Amor", "Image": "love", "Desc_Data": "amor"],
+              ["Title": "Neutral", "Image": "neutral", "Desc_Data": "neutral"],
+              ["Title": "Triste", "Image": "sad", "Desc_Data": "triste"],
+              ["Title": "Tímido", "Image": "shy", "Desc_Data": "tímido"],
+              ["Title": "Sonriendo", "Image": "smiling", "Desc_Data": "sonriendo"],
+              ["Title": "Guiño", "Image": "wink", "Desc_Data": "guiño"]
         ]
     }
 

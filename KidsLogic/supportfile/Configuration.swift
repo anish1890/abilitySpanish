@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 import SystemConfiguration
 
-let APP_NAME = "Ability To Help"
+let APP_NAME = "Ability To Help Spanish"
 
 
 

@@ -13,7 +13,9 @@ class MainHomeVC: UIViewController, UITableViewDataSource, UITableViewDelegate{
     @IBOutlet weak var tblMainMenu: UITableView!
 
     var arrMaincat = ["card_one", "card_two", "card_three", "card_four"]
-    var arrMainName = ["Kids Learning","Video learning","Look & Choose","Listen & Guess"]
+    var arrMainName = ["Aprendizaje para Niños", "Aprendizaje en Video", "Observa y Elige", "Escucha y Adivina"];
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

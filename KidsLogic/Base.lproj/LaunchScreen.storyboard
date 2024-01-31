@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -19,12 +20,22 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash" translatesAutoresizingMaskIntoConstraints="NO" id="p2x-rd-4TP">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WhatsApp Image 2024-01-30 at 9.32.51 AM" translatesAutoresizingMaskIntoConstraints="NO" id="7JJ-p6-g68">
+                                <rect key="frame" x="0.0" y="318" width="393" height="216"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="216" id="ayK-8e-yzO"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="7JJ-p6-g68" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="A9I-Zz-sF6"/>
+                            <constraint firstItem="7JJ-p6-g68" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="AFh-5t-FXM"/>
                             <constraint firstAttribute="bottom" secondItem="p2x-rd-4TP" secondAttribute="bottom" id="FeD-mL-XTS"/>
                             <constraint firstItem="p2x-rd-4TP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WKE-w3-aWI"/>
+                            <constraint firstItem="7JJ-p6-g68" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="n5Y-aD-REN"/>
+                            <constraint firstItem="7JJ-p6-g68" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="rZR-dK-iGz"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="p2x-rd-4TP" secondAttribute="trailing" id="tTt-9R-snY"/>
                             <constraint firstItem="p2x-rd-4TP" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="zG8-hO-Nbj"/>
                         </constraints>
@@ -36,6 +47,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="WhatsApp Image 2024-01-30 at 9.32.51 AM" width="1024" height="576"/>
         <image name="splash" width="735" height="1104"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

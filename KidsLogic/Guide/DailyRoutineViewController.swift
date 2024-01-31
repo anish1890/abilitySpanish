@@ -127,17 +127,17 @@ class DailyRoutineViewController: UIViewController,AVSpeechSynthesizerDelegate {
     
     func alphabetDetailsArray() {
         self.passArrDataSelected = [
-            ["Title": "Wake up", "Image": "Wake up", "Desc_Data": "Wake up"],
-            ["Title": "Get up", "Image": "Get up", "Desc_Data": "Get up"],
-            ["Title": "Clean my teeth", "Image": "Clean my teeth", "Desc_Data": "Clean my teeth"],
-            ["Title": "Have a shower", "Image": "Have a shower", "Desc_Data": "Have a shower"],
-            ["Title": "Get dressed", "Image": "Get dressed", "Desc_Data": "Get dressed"],
-            ["Title": "Have Breakfast", "Image": "Have Breakfast", "Desc_Data": "Have Breakfast"],
-            ["Title": "Go to school", "Image": "Go to school", "Desc_Data": "Go to school"],
-            ["Title": "Have lunch", "Image": "Have lunch", "Desc_Data": "Have lunch"],
-            ["Title": "Do homework", "Image": "Do homework", "Desc_Data": "Do homework"],
-            ["Title": "Have dinner", "Image": "Have dinner", "Desc_Data": "Have dinner"],
-            ["Title": "Go to bed", "Image": "Go to bed", "Desc_Data": "Go to bed"]
+            ["Title": "Despertarse", "Image": "Wake up", "Desc_Data": "Despertarse"],
+            ["Title": "Levantarse", "Image": "Get up", "Desc_Data": "Levantarse"],
+            ["Title": "Cepillar mis dientes", "Image": "Clean my teeth", "Desc_Data": "Cepillar mis dientes"],
+            ["Title": "Ducharse", "Image": "Have a shower", "Desc_Data": "Ducharse"],
+            ["Title": "Vestirse", "Image": "Get dressed", "Desc_Data": "Vestirse"],
+            ["Title": "Desayunar", "Image": "Have Breakfast", "Desc_Data": "Desayunar"],
+            ["Title": "Ir a la escuela", "Image": "Go to school", "Desc_Data": "Ir a la escuela"],
+            ["Title": "Almorzar", "Image": "Have lunch", "Desc_Data": "Almorzar"],
+            ["Title": "Hacer la tarea", "Image": "Do homework", "Desc_Data": "Hacer la tarea"],
+            ["Title": "Cenar", "Image": "Have dinner", "Desc_Data": "Cenar"],
+            ["Title": "Ir a la cama", "Image": "Go to bed", "Desc_Data": "Ir a la cama"]
         ]
     }
 }
